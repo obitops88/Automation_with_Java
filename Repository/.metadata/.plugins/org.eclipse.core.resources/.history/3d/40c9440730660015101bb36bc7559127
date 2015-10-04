@@ -1,0 +1,10 @@
+package com.live.test.Log4jxmlversion;
+
+public class TestLog4JXmlVersion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package soaToaster;
+
+public class SoaToasterTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+
+}

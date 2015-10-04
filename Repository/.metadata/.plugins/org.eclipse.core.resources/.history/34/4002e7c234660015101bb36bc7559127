@@ -1,0 +1,14 @@
+package com.live.test.Log4jxmlversion;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
+public class TestLog4JXmlVersion {
+	
+public static Logger logger = LogManager.getLogger("fileAppender");
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
