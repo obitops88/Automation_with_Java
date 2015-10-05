@@ -1,0 +1,16 @@
+package org.live.magento_app.pages;
+
+public class AbstractPage<WebDriver> {
+	 protected WebDriver driver;
+	  private String base_url = "http://live.guru99.com"; 
+
+	  public AbstractPage (WebDriver driver) {
+	   this.driver = driver;
+	  }
+	 
+	  public void openAndMaximizeBrowser (){
+	   ((Object) driver).navigate().to(base_url);
+	   driver.manage().window().maximize();
+	  }
+	  
+}

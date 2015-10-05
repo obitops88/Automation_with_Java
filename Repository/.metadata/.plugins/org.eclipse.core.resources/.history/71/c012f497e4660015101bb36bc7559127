@@ -1,0 +1,15 @@
+package com.live.test.Log4jxmlversion;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
+
+public class TestLog4JXmlVersion {
+	
+public static Logger logger = LogManager.getLogger("fileAppender");
+	public static void main(String[] args) {
+	DOMConfigurator.configure("C:\\Automation\\workspace\\eclipseworkspace\\Log4jxmlversion\\src\\main\\resources\\log4j.xml");
+
+	}
+
+}
